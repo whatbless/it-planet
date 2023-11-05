@@ -1,0 +1,25 @@
+.container {
+    background-image: url(./../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: inset 0px 0px 200px 150px rgba(0, 0, 0, 0.892);
+}
+
+.background {
+    position: relative;
+    width: 100vw;
+    z-index: -2;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    background: linear-gradient(rgba(217, 217, 217, 0.37), rgba(106, 133, 166, 0.25));
+}
