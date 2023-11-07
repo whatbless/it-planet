@@ -41,7 +41,7 @@ const Favors = () => {
     },
   ];
   return (
-    <div className="container mx-auto text-white">
+    <div className="container mx-auto text-white my-20">
       <div className="relative">
         <div className="my-40 font-bold text-6xl uppercase text-left">
           Услуги и цены

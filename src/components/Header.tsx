@@ -25,8 +25,12 @@ const Header = () => {
           ))}
         </div>
         <div className="socials flex flex-row grow">
-          <img className="w-9 h-9 p-px mx-2 my-5 rounded-full" src={vk}></img>
-          <img className="w-9 h-9 mx-2 my-5" src={tg}></img>
+          <img
+            className="w-9 h-9 p-px mx-2 my-5 rounded-full"
+            src={vk}
+            alt="vk"
+          ></img>
+          <img className="w-9 h-9 mx-2 my-5" src={tg} alt="tg"></img>
         </div>
         <div className="number flex flex-none items-center">
           <div className="text-white font-bold">+7 999 999-99-99</div>

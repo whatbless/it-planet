@@ -1,0 +1,13 @@
+.name {
+    font-size: 62px;
+    background-image: linear-gradient(to bottom, rgba(0, 169, 241, 1), rgba(255, 255, 255, 1));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: rgba(71, 200, 255, 1);
+}

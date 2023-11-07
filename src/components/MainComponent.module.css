@@ -1,10 +1,10 @@
 .box {
-    box-shadow: inset -70px 0px 100px 0px #000;
+    box-shadow: inset -70px 0px 70px 50px #000;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     overflow: hidden;
-    width: 944px;
-    height: 944px;
+    width: 1100px;
+    height: 984px;
 }
 
 .img {
