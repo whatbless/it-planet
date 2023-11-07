@@ -1,25 +1,28 @@
-.container {
-    background-image: url(./../images/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    box-shadow: inset 0px 0px 200px 150px rgba(0, 0, 0, 0.892);
+.box {
+    box-shadow: inset -70px 0px 100px 0px #000;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+    width: 944px;
+    height: 944px;
 }
 
-.background {
+.img {
     position: relative;
-    width: 100vw;
-    z-index: -2;
+    z-index: -1;
 }
 
-.item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-    background: linear-gradient(rgba(217, 217, 217, 0.37), rgba(106, 133, 166, 0.25));
+.planet {
+    width: 750px;
+    font-size: 151px;
+    background-image: linear-gradient(to right, rgba(0, 169, 241, 1), rgba(74, 70, 255, 1));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.desc {
+    width: 750px;
+    font-size: 30px;
+    line-height: 32px;
 }

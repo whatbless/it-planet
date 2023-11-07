@@ -1,29 +1,19 @@
 import React from "react";
-import Component1 from "./Component1";
+import planet from "./../images/planet1.png";
 import styles from "./MainComponent.module.css";
-//@ts-ignore
-import Slider from "./Slider";
 
 const MainComponent = () => {
   return (
-    <div className={styles.container}>
-      <div className="container mx-auto">
-        <div className="py-40">
-          <p className="font-bold text-white text-5xl w-96 text-left">
-            Новогодние каникулы в
-          </p>
-          <p className="font-bold text-8xl text-left text-my-blue pt-5">
-            IT-PLANET
-          </p>
+    <div className="text-white">
+      <div className="flex flex-row my-20">
+        <div className={styles.box}>
+          <img src={planet} alt="planet" className={styles.img} />
         </div>
-        <div className="items-center justify-center flex pb-32">
-          <Slider>
-            <div className={styles.item}>Item-1</div>
-            <div className={styles.item}>
-              <Component1 />
-            </div>
-            <div className={styles.item}>Item-3</div>
-          </Slider>
+        <div className="flex flex-col text-center justify-center items-center w-full">
+          <div className={styles.planet}>IT-PLANET</div>
+          <div className={styles.desc}>
+            Многопрофильный интерактивный музей IT-технологий
+          </div>
         </div>
       </div>
     </div>
