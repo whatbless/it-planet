@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/it-planet/static/css/main.ee885bf9.css",
+    "main.js": "/it-planet/static/js/main.ba657ab9.js",
+    "static/js/787.28cb0dcd.chunk.js": "/it-planet/static/js/787.28cb0dcd.chunk.js",
+    "static/media/planet1.png": "/it-planet/static/media/planet1.720b6d655f72d3eea419.png",
+    "static/media/Vector1.png": "/it-planet/static/media/Vector1.08fd14c987e7581404d9.png",
+    "static/media/2image.png": "/it-planet/static/media/2image.dc6e5040dadda5916b4c.png",
+    "static/media/3image.png": "/it-planet/static/media/3image.6c389e1c2136bce9b140.png",
+    "static/media/1image.png": "/it-planet/static/media/1image.d9a1eb33dbc172e6d9b5.png",
+    "index.html": "/it-planet/index.html",
+    "main.ee885bf9.css.map": "/it-planet/static/css/main.ee885bf9.css.map",
+    "main.ba657ab9.js.map": "/it-planet/static/js/main.ba657ab9.js.map",
+    "787.28cb0dcd.chunk.js.map": "/it-planet/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee885bf9.css",
+    "static/js/main.ba657ab9.js"
+  ]
+}
